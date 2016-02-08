@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    </head>
+    <body>
+    <h2>Création d'un nouveau compte</h2>
+        <form method="post" action="userAdd.php" name="signup">
+            <label for="nom">Nom</label>
+            <div id="nom">
+                <input type="text" name="nom" required>
+            </div>
+            <label for="prenom">Prenom</label>
+            <div id="prenom">
+                <input type="text" name="prenom"  required>
+            </div>
+
+            <label for="email">Adresse mail</label>
+            <div id="email">
+                <input type="email" name="email">
+            </div>
+
+            <label for="password">Mot de passe</label>
+            <div id="password">
+                <input type="text" name="password" required>
+            </div>
+            <label for="name">Téléphone</label>
+            <div id="name">
+                <input type="tel" name="tel" required>
+            </div>
+            <button class="btn btn-primary" type="submit">Enregistrer</button>
+        </form>
+    </body>
+</html>
